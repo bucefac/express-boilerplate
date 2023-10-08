@@ -1,0 +1,30 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_PATH=src node src/index.js",
+    "server": "pm2-runtime ecosystem.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-wrap": "^1.0.0",
+    "helmet": "^7.0.0",
+    "hpp": "^0.2.3",
+    "joi": "^17.11.0",
+    "joi-to-swagger": "^6.2.0",
+    "lodash": "^4.17.21",
+    "log4js": "^6.9.1",
+    "swagger-tools": "^0.10.4",
+    "swagger-ui-dist": "^5.9.0"
+  }
+}
